@@ -29,6 +29,8 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 width: 50%;
+overflow-y: auto;
+height: 600px;
 }
 .sekcja h4{
 padding: 20px;
@@ -42,11 +44,31 @@ margin-right: 20px;
 margin-bottom: 10px;
 border: solid 2px black;
 border-radius: 12px;
-background-color: rgb(63, 145, 145);
+background-color: rgb(63, 145, 145, 0.8);
+color: rgb(73, 73, 73);
+text-align: center;
+display: flex;
+justify-content: space-between;
+height: 140px;
 }
 .blok:hover{
-background-color: rgb(3, 94, 94);
+background-color: rgb(63, 145, 145);
+color: rgb(0, 0, 0);
+cursor: pointer;
 }
 .blok img{
-justify-content: right;
+margin: 10px;
+border-radius: 12px;
+width: auto;
+height: auto;
+}
+.stopa{
+background-color: teal;
+padding: 20px;
+color: white;
+text-align: center;
+}
+a{
+color: white;
+text-decoration: none;
 }
